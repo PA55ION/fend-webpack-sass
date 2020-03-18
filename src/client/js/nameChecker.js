@@ -1,14 +1,14 @@
 function checkForName(inputText) {
-    console.log("::: Running checkForName :::", inputText);
-    let names = [
-        "Picard",
-        "Janeway",
-        "Kirk",
-        "Archer",
-        "Georgiou"
+    console.log("::: Running checkForCity :::", inputText);
+    let city = [
+        "San Carlos",
+        "San Francisco",
+        "Naples",
+        "Miami",
+        "Ukiah"
     ]
 
-    if(names.includes(inputText)) {
+    if(city.includes(inputText)) {
         alert("Welcome, Captain!")
     }
 }
